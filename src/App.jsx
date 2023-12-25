@@ -34,9 +34,9 @@ function App() {
           />
           <div
             id="sidemenu"
-            className="hidden bg-neutral-AlmostWhite absolute top-0 right-14 px-20 h-screen shadow-xl"
+            className="hidden w-52 max-lg:hidden max-xl:hidden bg-neutral-AlmostWhite absolute top-0 right-16 px-10 h-screen shadow-xl"
           >
-            <div className="flex flex-col py-20">
+            <div className="flex flex-col py-20 text-neutral-MediumGray">
               <img
                 className="w-5 self-end fixed right-20 top-10 transition-all ease-in-out"
                 onClick={closeNav}
@@ -44,13 +44,24 @@ function App() {
                 alt="close menu"
               />
 
-              <ul className="w-full flex flex-col justify-around items-center mx-auto h-48 transition-all ease-in-out duration-75">
-                <li className="cursor-pointer">Home</li>
-                <li className="cursor-pointer">About</li>
-                <li className="cursor-pointer">Contact</li>
-                <li className="cursor-pointer">Blog</li>
+              <ul className="w-full flex flex-col justify-around items-start mx-auto h-48 transition-all ease-in-out duration-75 pb-6">
+                <li className="cursor-pointer">Features</li>
+                <li className="cursor-pointer">Company</li>
                 <li className="cursor-pointer">Careers</li>
+                <li className="cursor-pointer">About</li>
               </ul>
+              <button
+                className="text-sm hover:ring-2 rounded-2xl hover:ring-neutral-MediumGray py-2 px-10 mb-2"
+                type="button"
+              >
+                Login
+              </button>
+              <button
+                className="text-sm hover:ring-2 rounded-2xl hover:ring-neutral-MediumGray py-2 px-10 mb-2"
+                type="button"
+              >
+                Register
+              </button>
             </div>
           </div>
         </nav>
