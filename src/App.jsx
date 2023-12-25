@@ -38,7 +38,7 @@ function App() {
           <div className="hidden xl:block pr-20">
             <button className="text-sm py-2 px-10 self-end" type="submit">
               Login
-            </button> 
+            </button>
             <button
               className="text-sm hover:ring-0 ring-2 rounded-xl ring-neutral-MediumGray py-2 px-6"
               type="submit"
@@ -91,9 +91,12 @@ function App() {
             alt="hero desktop"
           />
           <div className="xl:w-8/12 flex flex-col justify-around items-center  xl:items-start xl:pb-10 pt-10 pb-10">
-            <h1 className="text-4xl font-medium text-neutral-AlmostBlack xl:text-6xl xl:w-11/12">
+            <h1 className="hidden xl:block text-4xl font-medium text-neutral-AlmostBlack xl:text-6xl xl:w-11/12">
               <span>Make</span>
               <br /> remote work
+            </h1>
+            <h1 className="xl:hidden text-4xl font-medium text-neutral-AlmostBlack xl:text-6xl xl:w-11/12">
+              Make remote work
             </h1>
             <p className="text-center xl:text-left text-sm text-neutral-MediumGray leading-relaxed mx-auto w-10/12 px-2 xl:mx-0 xl:w-7/12 xl:pr-4 xl:py-8 py-4">
               Get your team in sync, no matter your location. Streamline
