@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className="max-w-md mx-auto shadow-md pb-20 md:max-w-2xl xl:max-w-full">
+    <div className="max-w-md mx-auto pb-20 md:max-w-2xl xl:max-w-full bg-neutral-AlmostWhite">
       <div className="flex flex-col justify-evenly items-center">
         <nav className="w-full flex justify-between items-center py-4 px-4">
           <div className="hidden w-1/2 max-md:w-full xl:flex justify-around max-md:justify-between max-lg:pt-4">
