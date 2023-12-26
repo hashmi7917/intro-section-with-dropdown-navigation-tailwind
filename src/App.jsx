@@ -91,30 +91,30 @@ function App() {
             alt="hero desktop"
           />
           <div className="xl:w-8/12 flex flex-col justify-around items-center  xl:items-start xl:pb-10 pt-10 pb-10">
-            <h1 className="hidden xl:block text-4xl font-medium text-neutral-AlmostBlack xl:text-6xl xl:w-11/12">
+            <h1 className="hidden xl:block text-4xl font-medium text-neutral-AlmostBlack xl:text-7xl xl:w-11/12">
               <span>Make</span>
               <br /> remote work
             </h1>
             <h1 className="xl:hidden text-4xl font-medium text-neutral-AlmostBlack xl:text-6xl xl:w-11/12">
               Make remote work
             </h1>
-            <p className="text-center xl:text-left text-sm text-neutral-MediumGray leading-relaxed mx-auto w-10/12 px-2 xl:mx-0 xl:w-7/12 xl:pr-4 xl:py-8 py-4">
+            <p className="text-center xl:text-left text-sm xl:text-md text-neutral-MediumGray leading-relaxed mx-auto w-10/12 xl:px-0 px-2 xl:mx-0 xl:w-7/12  xl:py-8 py-4">
               Get your team in sync, no matter your location. Streamline
               processes, create team rituals, and watch productivity soar.
             </p>
             <div className="py-6">
               <button
                 type="button"
-                className="text-neutral-AlmostWhite bg-neutral-AlmostBlack hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-normal rounded-xl text-sm px-6 py-2.5 dark:bg-neutral-AlmostBlack dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                className="text-neutral-AlmostWhite bg-neutral-AlmostBlack hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-normal rounded-xl text-sm px-10 py-3.5 dark:bg-neutral-AlmostBlack dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
               >
                 Learn more
               </button>
             </div>
-            <div className="w-full flex justify-around items-center  xl:justify-between xl:w-8/12 pt-20 align-bottom xl:-mb-24">
-              <img className="h-3" src={Databiz} alt="databiz" />
-              <img className="h-5" src={Audiophile} alt="audiophile" />
-              <img className="h-3" src={Meet} alt="meet" />
-              <img className="h-5" src={Maker} alt="maker" />
+            <div className="w-full flex justify-around items-center  xl:justify-between xl:w-10/12 pt-20 align-bottom xl:-mb-24">
+              <img className="h-5" src={Databiz} alt="databiz" />
+              <img className="h-7" src={Audiophile} alt="audiophile" />
+              <img className="h-5" src={Meet} alt="meet" />
+              <img className="h-7" src={Maker} alt="maker" />
             </div>
           </div>
         </header>
