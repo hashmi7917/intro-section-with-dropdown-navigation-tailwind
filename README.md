@@ -1,18 +1,14 @@
-## React + Vite
+## React + Vite + Tailwind
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Frontend Mentor - Easybank landing page solution
-
-This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-# Installation: Clone the Repo and Install Modules Using
+# Installation: Clone the Repo and Install Modules run the following command
 
 ## npm install
 
-# Frontend Mentor - Sunnyside agency landing page solution
+# Frontend Mentor - Intro Section Page solution
 
-This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Intro Section Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
