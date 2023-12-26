@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className="max-w-sm mx-auto shadow-md pb-20 md:max-w-md xl:max-w-full">
+    <div className="max-w-md mx-auto shadow-md pb-20 md:max-w-2xl xl:max-w-full">
       <div className="flex flex-col justify-evenly items-center">
         <nav className="w-full flex justify-between items-center py-4 px-4">
           <div className="hidden w-1/2 max-md:w-full xl:flex justify-around max-md:justify-between max-lg:pt-4">
@@ -55,11 +55,11 @@ function App() {
           />
           <div
             id="sidemenu"
-            className="hidden w-60 max-lg:hidden max-xl:hidden bg-white absolute top-0 right-16 px-10 h-screen shadow-xl"
+            className="hidden w-60 max-lg:hidden max-xl:hidden bg-white absolute top-0 right-0 px-10 h-screen shadow-xl"
           >
             <div className="flex flex-col py-20 text-neutral-MediumGray">
               <img
-                className="w-5 self-end fixed right-20 top-10 transition-all ease-in-out"
+                className="w-5 self-end fixed right-5 top-10 transition-all ease-in-out"
                 onClick={closeNav}
                 src={Closemenu}
                 alt="close menu"
